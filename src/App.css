@@ -74,3 +74,8 @@ button {
 button:active {
  background-color: #A818DA;
 }
+
+.meme--image {
+ max-width: 500px;
+ max-height: 500px;
+}
