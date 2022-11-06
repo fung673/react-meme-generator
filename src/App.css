@@ -1,119 +1,118 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
 
 * {
- margin: 0;
+  margin: 0;
 }
 
 .navbar {
- height: 65px;
- background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
- display: flex;
- align-items: center;
- justify-content: space-evenly;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 
 
 .trollface {
- width: 31.31px;
- height: 26.22px;
- padding: 10px;
+  width: 31.31px;
+  height: 26.22px;
+  padding: 10px;
 
 }
 
 .title {
- color: white;
- font-family: "Karla";
+  color: white;
+  font-family: "Karla";
 }
 
 .reactcourse {
- font-size: 12px;
- font-weight: 500;
- margin-left: auto;
- color: white;
- font-family: "Karla";
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: auto;
+  color: white;
+  font-family: "Karla";
 }
 
 .interact {
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
- border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
 .firstline {
- padding: 25px 0px;
- display: flex;
- gap: 17px;
+  padding: 25px 0px;
+  display: flex;
+  gap: 17px;
 }
 
 
 
 input[type="text"] {
- width: 230px;
- height: 35px;
- border-radius: 5px;
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
 }
 
 .break {
- flex-basis: 100%;
- height: 0;
+  flex-basis: 100%;
+  height: 0;
 }
 
 button {
- width: 493px;
- height: 40px;
- border-radius: 5px;
- background-color: #711F8D;
- color: white;
- border: none;
- cursor: pointer;
+  width: 493px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #711F8D;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 button:active {
- background-color: #A818DA;
+  background-color: #A818DA;
 }
 
 .meme {
- position: relative;
+  position: relative;
 }
 
 .meme--image {
- max-width: 100%;
- border-radius: 3px;
+  max-width: 100%;
+  border-radius: 3px;
 }
 
 
 .meme--text {
- position: absolute;
- width: 80%;
- text-align: center;
- left: 50%;
- transform: translateX(-50%);
- margin: 15px 0;
- padding: 0 5px;
- font-family: impact, sans-serif;
- font-size: 2em;
- text-transform: uppercase;
- color: white;
- letter-spacing: 1px;
- text-shadow:
-  2px 2px 0 #000,
-  -2px -2px 0 #000,
-  2px -2px 0 #000,
-  -2px 2px 0 #000,
-  0 2px 0 #000,
-  2px 0 0 #000,
-  0 -2px 0 #000,
-  -2px 0 0 #000,
-  2px 2px 5px #000;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
 .bottom {
- bottom: 0;
+  bottom: 0;
 }
 
 .top {
- top: 0;
+  top: 0;
 }
